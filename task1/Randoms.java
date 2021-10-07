@@ -22,9 +22,6 @@ public class Randoms implements Iterable<Integer> {
 
             @Override
             public boolean hasNext() {
-                if (number < min || number > max) {
-                    return false;
-                }
                 return true;
             }
 
